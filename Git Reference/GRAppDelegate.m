@@ -7,6 +7,7 @@
 //
 
 #import "GRAppDelegate.h"
+#import "GRScrollViewController.h"
 
 @implementation GRAppDelegate
 
@@ -19,6 +20,12 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+
+    
+    GRScrollViewController *viewcontroller = [GRScrollViewController new];
+    
+    self.window.rootViewController = viewcontroller;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

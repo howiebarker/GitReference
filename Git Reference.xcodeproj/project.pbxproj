@@ -22,6 +22,7 @@
 		9EA346E4192C37330050F144 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA346C8192C37330050F144 /* CoreData.framework */; };
 		9EA346EC192C37330050F144 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EA346EA192C37330050F144 /* InfoPlist.strings */; };
 		9EA346EE192C37330050F144 /* Git_ReferenceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA346ED192C37330050F144 /* Git_ReferenceTests.m */; };
+		9EA346F9192C382D0050F144 /* GRScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA346F8192C382D0050F144 /* GRScrollViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		9EA346E9192C37330050F144 /* Git ReferenceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git ReferenceTests-Info.plist"; sourceTree = "<group>"; };
 		9EA346EB192C37330050F144 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9EA346ED192C37330050F144 /* Git_ReferenceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_ReferenceTests.m; sourceTree = "<group>"; };
+		9EA346F7192C382D0050F144 /* GRScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRScrollViewController.h; sourceTree = "<group>"; };
+		9EA346F8192C382D0050F144 /* GRScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRScrollViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 		9EA346B6192C37330050F144 = {
 			isa = PBXGroup;
 			children = (
+				9EA346F7192C382D0050F144 /* GRScrollViewController.h */,
+				9EA346F8192C382D0050F144 /* GRScrollViewController.m */,
 				9EA346CA192C37330050F144 /* Git Reference */,
 				9EA346E7192C37330050F144 /* Git ReferenceTests */,
 				9EA346C1192C37330050F144 /* Frameworks */,
@@ -251,6 +256,7 @@
 			files = (
 				9EA346D8192C37330050F144 /* Git_Reference.xcdatamodeld in Sources */,
 				9EA346D1192C37330050F144 /* main.m in Sources */,
+				9EA346F9192C382D0050F144 /* GRScrollViewController.m in Sources */,
 				9EA346D5192C37330050F144 /* GRAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
